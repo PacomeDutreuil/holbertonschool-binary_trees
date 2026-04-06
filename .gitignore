@@ -1,0 +1,5 @@
+.vscode-server/
+.vscode-server/
+.vscode/
+*.o
+a.out
