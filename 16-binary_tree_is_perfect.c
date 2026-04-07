@@ -1,7 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * height - measures height
+ * height - measures the height of a binary tree
+ * @tree: pointer to the node
+ *
+ * Return: height of the tree
  */
 static int height(const binary_tree_t *tree)
 {
@@ -17,7 +20,10 @@ static int height(const binary_tree_t *tree)
 }
 
 /**
- * size - counts nodes
+ * size - counts the number of nodes in a binary tree
+ * @tree: pointer to the node
+ *
+ * Return: number of nodes
  */
 static int size(const binary_tree_t *tree)
 {
@@ -28,8 +34,8 @@ static int size(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_is_perfect - checks if tree is perfect
- * @tree: pointer to root
+ * binary_tree_is_perfect - checks if a binary tree is perfect
+ * @tree: pointer to the root node
  *
  * Return: 1 if perfect, 0 otherwise
  */
